@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full Projects</title>
+  <link rel="shortcut icon" href="imagenes/logo full projects.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <nav>
+    <div class="nav-content">
+      <div class="logo">
+        <a href="index.html"><img src="imagenes/logo full projects.png" style="max-width: 40px; margin: 10px;" alt="">Full Projects</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="login.html">Iniciar sesión</a></li>
+        <li><a href="registro.html">Registrarme</a></li>
+
+      </ul>
+    </div>
+  </nav>
+  
+  <div class="contenedor">
+
+    <div class="columna1">
+      <div class="title">¡Bienvenido a Full Projects!</div>
+      <br>
+      <br>
+      Estamos encantados de darte la bienvenida a nuestra plataforma de gestión
+      de proyectos, donde la eficiencia y la colaboración se encuentran en el
+      corazón de cada tarea. En Full Projects, hemos creado un espacio diseñado
+      para simplificar tus proyectos, desde la planificación hasta la ejecución.
+      <br>
+      <br>
+      Con nuestras herramientas intuitivas y potentes, podrás organizar tareas,
+      asignar recursos, realizar un seguimiento del progreso y facilitar la
+      comunicación en tiempo real. Ya sea que estés liderando un equipo pequeño
+      o gestionando proyectos a gran escala, Full Projects te proporciona las
+      soluciones que necesitas para alcanzar tus objetivos de manera eficaz.
+    </div>
+    <div class="columna2"><img src="imagenes/gestionProyectos.png" alt="" style="max-width: 100%;"></div>
+
+  </div>
+
+
+  <div class="container" style="max-width: 100vh;">
+    <div class="row">
+      <div class="col-12" style="display: flex; justify-content: center;">
+        <img src="imagenes/foto.jpg" style="max-width: 15rem; border-radius: 50%;" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6" style="display: flex; justify-content: center;">
+        <p>Mi nombre es Duvan Avila, estudiante de ingenieria de software de la universidad
+          Iberoamericana con 24 años, creador de esta plataforma web de gestión de proyectos a disposición
+          de todas las empresas que deseen llevar su gestión de proyectos a otro nivel!
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Full Projects</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script>
+    let nav = document.querySelector("nav");
+    window.onscroll = function () {
+      if (document.documentElement.scrollTop > 20) {
+        nav.classList.add("sticky");
+      } else {
+        nav.classList.remove("sticky");
+      }
+    }
+  </script>
+</body>
+
+</html>
